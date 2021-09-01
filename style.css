@@ -67,7 +67,57 @@ header{
     margin:auto;
 }
 
+/* Services section */
+.services-section{
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #363795 74%);
+    color: whitesmoke;
+    padding: 90px 15px;
+}
 
+.service-icon{
+    font-size: 450%;
+    margin: 20px;
+}
+
+/* Contact Section */
+
+.contact-section{
+    padding: 50px 10px;
+}
+
+.contact-item{
+    padding: 15px;
+    background-color: #2a2a72;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.contact-icons li a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact-phone li{
+    list-style: none;
+    display: inline-block;
+}
+
+.contact-phone li a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact-mail{
+    display: inline-block;
+}
+
+.contact-mail:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer */
 
 footer{
     background-color: #2a2a72;

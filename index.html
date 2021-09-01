@@ -15,7 +15,7 @@
     <title>Aadhya Enterprises</title>
 </head>
 <body>
-    <header>
+    <header id="home">
         <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
             <a class="navbar-brand" href="#"><img src="img/logo.png" width="30" height="30" alt=""> Aadhya Enterprises</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,13 +24,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="#home">Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#about">About Us</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#contact">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -45,7 +48,7 @@
           </div>
     </header>
 
-    <section class="about-section mx-auto">
+    <section class="about-section mx-auto" id="about">
         <div class="row">
             <div class="col-lg-8 col-md-12 col-sm-12 about">
                 <h2 class="font-weight-bold">About Us</h2>
@@ -89,17 +92,56 @@
     </section>
   
     
-    <!--  -->
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <h2 class="text-center font-weight-bold">Our Services</h2>
+        <div class="row justify-content-center mt-5">
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                <div class="service-icon"><i class="fas fa-map-marked-alt"></i></div>
+                <h4>Real Estate</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                <div class="service-icon"><i class="fas fa-poll"></i></div>
+                <h4>Share Marketing</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                <div class="service-icon"><i class="fas fa-city"></i></div>
+                <h4>Construction</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-section text-center" id="contact">
+        <h2 class="text-center font-weight-bold">Contact Us</h2>
+
+        <div class="contact-icons">
+            <ul class="my-4">
+                <li class="social-media"><a href=""  target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li class="social-media"><a href="https://www.instagram.com/_.aadhya_enterprises._/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+
+        <ul class="my-4 contact-phone">
+            <li class="contact-item"><a href="tel:9108778424" target="_blank"><i class="fas fa-phone"></i> 9108778424</a></li>
+            <li class="contact-item"><a href="tel:7338486324" target="_blank"><i class="fas fa-phone"></i> 7338486324</a></li>
+        </ul>
+
+        <a class="contact-item contact-mail" href="mailto:aadhyaenterprises0201@gmail.com"><i class="far fa-envelope"></i> aadhyaenterprises0201@gmail.com </a> 
+            
+        
+
+    </section>
 
     <footer class="scroll-ma-off p-5" id="about-us">
         <div class="row">
             <div class="col-lg-4 col-md-12 col-sm-12 p-1">
                 <h4 class="f-head font-weight-bold">Aadhya Enterprises</h4>
                 <ul class="my-4">
-                    <li class="social-media"><a href=""><i class="fab fa-facebook"></i></a></li>
-                    <li class="social-media"><a href=""><i class="fab fa-instagram"></i></a></li>
-                    <li class="social-media"><a href=""><i class="far fa-envelope"></i></a></li>
-                    <li class="social-media"><a href=""><i class="fas fa-phone"></i></a></li>
+                    <li class="social-media"><a href=""  target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li class="social-media"><a href="https://www.instagram.com/_.aadhya_enterprises._/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li class="social-media"><a href="mailto:aadhyaenterprises0201@gmail.com"  target="_blank"><i class="far fa-envelope"></i></a></li>
+                    <li class="social-media"><a href="tel:9108778424" target="_blank"><i class="fas fa-phone"></i></a></li>
                 </ul>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 p-1">
@@ -109,14 +151,15 @@
                 2nd Floor Kaujubag Karwar <br>
                 581 301</p>
                 <p><i class="far fa-envelope"></i> aadhyaenterprises0201@gmail.com <br>
-                    <i class="fas fa-phone"></i> 9108778424, 7338486324</p>
+                    <i class="fas fa-phone"></i> 9108778424, </p>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 p-1">
-                <h5 class="f-head">Menu</h5>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Contact Us</a></li>
+                <h5 class="f-head font-weight-bold">Menu</h5>
+                <ul class="my-4">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </div>
         </div>
