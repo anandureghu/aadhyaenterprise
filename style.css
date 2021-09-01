@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    position: relative;
+    height: 95vh;
+    background-image:linear-gradient( rgba(151, 157, 167, 0.8) 10%, rgba(31,61,115, 0.8) 80%), url(img/landing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-main{
+    color: white;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    font-size: 500%;
+}
+
+.header-content{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-items li{
+    list-style: none;
+    display: inline-block;
+    color: whitesmoke;
+    padding: 0px 10px;
+    text-transform: capitalize;
+    border-right: 2px solid whitesmoke;
+}
+
+.header-items li:last-child{
+    border-right: none;
+}
+
+.about-section{
+    padding: 50px;
+}
+
+.about{
+    padding: 70px;
+}
+
+.about-detail{
+    margin-top: 30px;
+}
+
+.about-img-section{
+    text-align: center;
+    margin:auto;
+}
+
+
+
+footer{
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #363795 74%);
+    color: whitesmoke;
+}
+
+footer p{
+    letter-spacing: 1.05;
+    color: rgba(255,255,255, 0.7);
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: rgba(255,255,255, 0.7);
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
