@@ -1,16 +1,20 @@
-@media only screen and (max-width:780px){
-    .header-main{
-        font-size: 50px;
-    }
-    .header-items li:nth-child(2){
-        border-right: none;
-    }
+@media only screen and (max-width: 780px) {
+  .header-main {
+    font-size: 50px;
+  }
 
-    .about-detail{
-        text-align: justify;
-    }
+  .about-detail {
+    text-align: justify;
+  }
 
-    .about{
-        padding: 10px;
-    }
+  .about {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 396px) {
+  .header-items li:nth-child(2) {
+    border-right: none;
+    margin-right: 2px;
+  }
 }
