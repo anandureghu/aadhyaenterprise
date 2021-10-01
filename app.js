@@ -19,9 +19,11 @@ $(document).ready(() => {
         offset:"85%"
     });
 
-    // $(".contact-section").waypoint(direction=>{
-    //     $(".contact-section").addClass("animate__animated animate__fadeInUp");
-    // },{
-    //     offset:"85%"
-    // });
+    $(".works-section").waypoint(direction=>{
+        $(".works-section").addClass("animate__animated animate__fadeInUp");
+    },{
+        offset:"85%"
+    });
 });
+
+const work = document.querySelector('.work-button-1');
