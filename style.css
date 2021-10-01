@@ -229,6 +229,7 @@ footer ul li a:hover {
   bottom: 20;
   left: 10;
   text-shadow: 6px 0px 7px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 @keyframes left-right {
@@ -246,4 +247,51 @@ footer ul li a:hover {
 .arrow-icon {
   position: relative;
   animation: left-right 1.1s infinite;
+}
+
+/* Work Pop up Section */
+
+.works-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.work-popup {
+  max-width: 800px;
+  max-height: 500px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+}
+
+.works-popup img {
+  width: 100%;
+  max-height: 500px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.close-popup {
+  z-index: 999;
+  color: white;
+  position: absolute;
+  right: 40;
+  top: 40;
+  font-size: 50px;
+}
+
+.carousel-work-1 {
+  display: none;
+}
+
+.carousel-work-2 {
+  display: none;
 }
