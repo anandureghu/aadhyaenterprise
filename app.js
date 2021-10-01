@@ -19,9 +19,9 @@ $(document).ready(() => {
         offset:"85%"
     });
 
-    $(".contact-section").waypoint(direction=>{
-        $(".contact-section").addClass("animate__animated animate__fadeInUp");
-    },{
-        offset:"85%"
-    });
+    // $(".contact-section").waypoint(direction=>{
+    //     $(".contact-section").addClass("animate__animated animate__fadeInUp");
+    // },{
+    //     offset:"85%"
+    // });
 });
