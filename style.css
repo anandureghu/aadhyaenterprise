@@ -294,3 +294,61 @@ footer ul li a:hover {
 .carousel-work-2 {
   display: none;
 }
+
+.team-section {
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #363795 74%);
+  color: whitesmoke;
+  padding: 50px 20px;
+}
+
+.member {
+  max-width: 300px;
+  background-color: #363795;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-top: 30px;
+  transition: all 0.2s ease-in;
+}
+
+.member:hover {
+  transform: scale(1.02);
+  transition: all 0.2s ease-in;
+}
+
+.member h5 {
+  margin-top: 15px;
+  text-transform: capitalize;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.member h6 {
+  /* text-transform: uppercase; */
+  /* font-size: 17px; */
+}
+
+.member-body {
+  margin-top: 18px;
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.7);
+}
+
+table {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+td {
+  vertical-align: baseline;
+  padding: 5px;
+}
